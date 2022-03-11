@@ -83,7 +83,7 @@
 > - Clock period : 한 클락 사이클의 길이
 > - Clock frequency(rate) : 초당 사이클 수. 
 > ### Cpu time = Cpu Clock Cycle * Clock Cycle time
-> ### - = CPU Clock Cycles/Clock rate
+> ### = CPU Clock Cycles/Clock rate
 > - 성능 향상법
 > > - clock 사이클을 줄인다.
 > > - clock rate 증가
