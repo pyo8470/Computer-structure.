@@ -89,6 +89,7 @@
 > > - clock rate 증가
 > > - 하드웨어 디자이너는 사이클 
 > ### Instruction count and CPI(cycles per instruction)
+![image](https://user-images.githubusercontent.com/84065357/157790798-463667b3-c8ff-4e64-880d-18aada3aaebe.png)
 > - Instruction count = 프로그램,ISA,컴파일러에 의해 결정
 > - Instruction에 따라 CPI 값도 달라짐
 > - 하지만 일단 동일하다고 가정함.
