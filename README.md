@@ -77,3 +77,18 @@
 > > > - Discounts I/O time, other jobs' shares
 > > - 사용자 CPU time과 시스템 CPU time을 구성.
 > > - 프로그램마다 CPU 및 시스템 성능에 따라 다른 영향을 받습니다.
+## CPU Clocking
+![image](https://user-images.githubusercontent.com/84065357/157788486-5057cd5f-ada4-4534-acc0-903e48daa30e.png)
+> - 디지털 하드웨어의 연산은 일정하게 유지되는 clock에 영향을 받음
+> - Clock period : 한 클락 사이클의 길이
+> - Clock frequency(rate) : 초당 사이클 수. 
+> ### Cpu time = Cpu Clock Cycle * Clock Cycle time
+> ### - = CPU Clock Cycles/Clock rate
+> - 성능 향상법
+> > - clock 사이클을 줄인다.
+> > - clock rate 증가
+> > - 하드웨어 디자이너는 사이클 
+> ### Instruction count and CPI(cycles per instruction)
+> - Instruction count = 프로그램,ISA,컴파일러에 의해 결정
+> - Instruction에 따라 CPI 값도 달라짐
+> - 하지만 일단 동일하다고 가정함.
