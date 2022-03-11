@@ -54,3 +54,26 @@
 > - 실리콘으로 제작
 > - 특성변화를 위한 재료를 추가
 > > - 도체, 절연체, Switch(조건에 따라 전기가 통하거나 안 통함)
+## IC(Inergrated Circuit Cost)
+> - Cost per die= Cost per wafer/(Dies per wafer * Yield) - 암기
+> - Dies per wafe .= Wafer area/Die area - 암기
+> - Yield=1/(1+(Defects per area * Die area/2))^2
+## Performace
+> - Response time
+> > - 하나의 task를 처리할 때 걸리는 시간
+> - Throughput
+> > - 단위시간 내에 완료된 일의 총량
+## Relative Performance
+> ### Performance=1/Execution Time
+> - X가 Y보다 n배 빠르다
+> > - Performance Ex/Performance Ey = Execution Time Y / Execution Time X = n
+> ### Excution Time의 측정
+> - #### Elapsed time (경과 시간)
+> > - Total response time(모든 상황을 고려한)
+> > > - Processing,I/O,OS overhead,idle time (상황)
+> > - 시스템 성능을 결정함.
+> - #### CPU time
+> > - 지정된 작업을 처리하는 데 걸리는 시간
+> > > - Discounts I/O time, other jobs' shares
+> > - 사용자 CPU time과 시스템 CPU time을 구성.
+> > - 프로그램마다 CPU 및 시스템 성능에 따라 다른 영향을 받습니다.
