@@ -47,4 +47,12 @@
 > > - Store conditional = sc, offset(rs) -> rt에 저장되어있는 데이터를, offset(rs)에 다시 저장.
 > > > - ll 이라는 instruction을 이용해 데이터를 load한 후 원하는 operation을 한 후  해당하는 위치에 데이터를 저장을 할때
 > > > > - 성공적으로 저장하면 rt에 1저장
-> > > > - 실패하면 rt에 0 저장.
+> > > > - 실패하면(데이터가 의도한것과 다르다면.) rt에 0 저장.
+
+## 어셈블러 슈도 instruction
+> ### 대부분의 어셈블러 명령들은 기계 명령과 일대일 대응관계를 가지고있음.
+> ## Pseudoinstructions : 어셈블러의 상상력의 산물?
+> ![image](https://user-images.githubusercontent.com/84065357/162173602-3e2c4cd2-1e12-4674-b4b8-290c5db2fc18.png)
+
+## C Sort 예제
+> ![image](https://user-images.githubusercontent.com/84065357/162173874-1a7dd52b-4d9c-434a-ba78-32a9f205f1a8.png)
