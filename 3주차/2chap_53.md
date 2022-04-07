@@ -56,3 +56,5 @@
 
 ## C Sort 예제
 > ![image](https://user-images.githubusercontent.com/84065357/162173874-1a7dd52b-4d9c-434a-ba78-32a9f205f1a8.png)
+> ![image](https://user-images.githubusercontent.com/84065357/162174086-89571d30-fffb-4fc9-a5a0-71d2fad1f650.png)
+ 
